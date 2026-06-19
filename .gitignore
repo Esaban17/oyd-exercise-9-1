@@ -1,0 +1,26 @@
+# Terraform state files — contain sensitive data, never commit
+*.tfstate
+*.tfstate.*
+
+# Terraform working directory
+.terraform/
+
+# Crash log
+crash.log
+crash.*.log
+
+# Override files (local overrides only)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration file
+.terraformrc
+terraform.rc
+
+# Lock file IS committed (reproducible builds)
+# .terraform.lock.hcl
+
+# Evidence screenshots are committed intentionally
+# evidence/*.png
